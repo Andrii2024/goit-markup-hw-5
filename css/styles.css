@@ -465,14 +465,16 @@ textarea {
   fill: #f4f4fd;
 }
 
-.button-form-button {
+.button-form-btn {
   width: 169px;
   height: 56px;
   display: inline-flex;
   padding: 16px 32px;
-  align-self: flex-start;
+  align-self: center;
+  justify-content: center;
   margin: 24px 96px 24px 96px;
   border-radius: 4px;
+  border: none;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
