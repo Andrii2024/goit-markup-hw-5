@@ -262,11 +262,13 @@ img {
 /* <!----------- footer Form ------------>*/
 .form-div {
   display: inline;
+  flex-direction: column;
   margin-left: 80px;
 }
 .form {
 }
 .form-p {
+  margin: 0;
   font-weight: 500;
   color: #fff;
   line-height: 1.5;
