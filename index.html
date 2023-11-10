@@ -558,8 +558,8 @@
           </ul>
         </div>
         <div class="form-div">
+          <p class="form-p">Subscribe</p>
           <form class="form">
-            <p class="form-p">Subscribe</p>
             <input
               class="form-input"
               type="email"
@@ -630,27 +630,27 @@
             </div>
           </div>
           <div class="frame">
-            <label class="modal-form-label"
-              >Comment
-              <textarea
-                class="modal-form-input modal-form-input-comment"
-                name="Comment"
-                rows="5"
-                placeholder="Text input"
-              ></textarea>
-            </label>
+            <label class="modal-form-label" for="user_comment">Comment</label>
+            <textarea
+              class="modal-form-input modal-form-input-comment"
+              name="user_comment"
+              rows="5"
+              placeholder="Text input"
+              id="user_comment"
+            ></textarea>
           </div>
           <div class="checkbox">
             <input
-              class="checkbox-input visualli-hidden"
+              class="visualli-hidden"
               type="checkbox"
-              name="accept"
-              id="accept"
+              name="user-privacy"
+              value="true"
+              id="user-privacy"
               required
             />
             <label
               class="modal-form-label modal-form-label-checkbox"
-              for="accept"
+              for="user-privacy"
               ><span class="checkbox-custom"
                 ><svg class="modal-icon-checkbox" width="16" height="16">
                   <use href="./images/icons.svg#icon-click"></use></svg
