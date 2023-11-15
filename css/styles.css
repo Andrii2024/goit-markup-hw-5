@@ -450,7 +450,7 @@ placeholder {
 
   margin-bottom: 24px;
 }
-.visualli-hidden {
+.checkbox-input {
 }
 .modal-form-label-checkbox {
   display: block;
@@ -472,7 +472,7 @@ placeholder {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
 }
-.visualli-hidden:checked + .modal-form-label-checkbox > .checkbox-custom {
+.checkbox-input:checked + .modal-form-label-checkbox > .checkbox-custom {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
