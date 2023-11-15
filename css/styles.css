@@ -265,6 +265,7 @@ img {
 }
 .form {
   display: flex;
+  gap: 24px;
 }
 .form-p {
   margin-bottom: 16px;
@@ -273,7 +274,6 @@ img {
   line-height: 1.5;
 }
 .form-input {
-  margin-right: 24px;
   padding-left: 16px;
   width: 264px;
   height: 40px;
